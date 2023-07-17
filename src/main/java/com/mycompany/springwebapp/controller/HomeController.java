@@ -11,6 +11,7 @@ public class HomeController {
 	//http://localhost:8080/springwebapp/
 	@RequestMapping("/")
 	public String index() {
+		log.info("실행2");
 		return "/index"; //xml에서 prefix, suffix 를 줘서 "/WEB-INF/views/index.jsp 이여야하는데 /index 로 줄임
 	}
 }
